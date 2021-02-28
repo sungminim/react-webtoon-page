@@ -1,7 +1,6 @@
 {
   "name": "react-study",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,5 +20,15 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-standard": "^5.0.0",
     "prettier": "^2.2.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sungminim/2102228.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sungminim/2102228/issues"
+  },
+  "homepage": "https://github.com/sungminim/2102228#readme",
+  "description": ""
 }
