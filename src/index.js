@@ -1,3 +1,5 @@
-var a = 10
+import add from './add'
+import { mul } from './mul'
 
-console.log('hi')
+add(10, 5)
+mul(10, 5)
