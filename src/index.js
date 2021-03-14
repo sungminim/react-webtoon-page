@@ -1,3 +1,5 @@
-var a = 10
+import React from 'react'
+import ReactDom from 'react-dom'
 
-console.log('hi')
+import App from './app'
+ReactDom.render(<App />, document.getElementById('app'))
