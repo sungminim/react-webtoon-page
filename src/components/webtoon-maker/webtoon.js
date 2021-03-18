@@ -6,10 +6,7 @@ const Container = styled.div`
   margin-bottom: 20px;
 `
 
-const Image = styled.img`
-  padding: 15px;
-  margin-bottom: 20px;
-`
+const Image = styled.img``
 
 function Webtoon({ webtoon }) {
   const { title, author, description, imageUrl } = webtoon
@@ -17,7 +14,7 @@ function Webtoon({ webtoon }) {
   return (
     <Container>
       <div>
-        <img src={imageUrl} alt={title} />
+        <Image src={imageUrl} alt={title} />
       </div>
       <div>
         {title} / {author}
